@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+h1 {
+  color: blueviolet;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
