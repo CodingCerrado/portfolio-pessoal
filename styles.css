@@ -1,6 +1,6 @@
 @charset 'UTF-8';
 
-nav * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,10 +13,23 @@ nav {
   padding: 0 2.4rem;
   font-size: 1.2rem;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #f3f3f3;
 }
 
 nav a {
   text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+img.logo {
+  width: 2.5rem;
 }
 
 ul {
