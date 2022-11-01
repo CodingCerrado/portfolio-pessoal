@@ -1,16 +1,16 @@
 async function getContent(paginaId, callback) {
     var paginas = {};
 
-    await fetch("./paginas/resume/index.html")
+    await fetch("https://raw.githubusercontent.com/CodingCerrado/portfolio-pessoal/2d3f9dccd859cb444ebf8334fb9a5e2ecb382883/paginas/resume/index.html")
       .then((res) => res.text())
       .then((data) => paginas.resume = data);
-    await fetch("./paginas/home/index.html")
+    await fetch("https://raw.githubusercontent.com/CodingCerrado/portfolio-pessoal/2d3f9dccd859cb444ebf8334fb9a5e2ecb382883/paginas/home/index.html")
       .then((res) => res.text())
       .then((data) => paginas.home = data);
-    await fetch("./paginas/projects/index.html")
+    await fetch("https://raw.githubusercontent.com/CodingCerrado/portfolio-pessoal/2d3f9dccd859cb444ebf8334fb9a5e2ecb382883/paginas/projects/index.html")
       .then((res) => res.text())
       .then((data) => paginas.projects = data);
-    await fetch("./paginas/contact/index.html")
+    await fetch("https://raw.githubusercontent.com/CodingCerrado/portfolio-pessoal/2d3f9dccd859cb444ebf8334fb9a5e2ecb382883/paginas/contact/index.html")
       .then((res) => res.text())
       .then((data) => paginas.contact = data);
 
