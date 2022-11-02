@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #f3f3f3;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -15,7 +19,6 @@ nav {
   padding: 1rem 2.4rem;
   font-size: 1.2rem;
   font-family: "Work Sans", sans-serif;
-  background-color: #f3f3f3;
 }
 
 nav a {
