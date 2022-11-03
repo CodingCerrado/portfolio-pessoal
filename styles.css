@@ -34,3 +34,10 @@ a {
   text-decoration: none;
   color: black;
 }
+.politicas {
+  font-size: 15px;
+}
+
+.footerlinkcriado {
+  text-decoration: underline;
+}
