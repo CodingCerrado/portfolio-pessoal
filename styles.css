@@ -6,12 +6,12 @@ body {
   box-sizing: border-box;
 }
 
-nav {
+.navFooter {
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
   gap: 3rem;
   background-color: #f3f3f3;
   height: 10rem;
@@ -26,8 +26,14 @@ ul {
   font-weight: bold;
 }
 
+.clickSite {
+  font-weight: bolder;
+  font-size: larger;
+}
+
 li {
   font-weight: normal;
+  font-family: sans-serif;
 }
 
 a {
