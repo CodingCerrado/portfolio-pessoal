@@ -42,6 +42,10 @@ nav ul {
   gap: 1rem;
 }
 
+nav .right-content {
+  font-size: 1.1rem;
+}
+
 .border-left {
   border-left: 1px solid;
   padding-left: 1rem;
