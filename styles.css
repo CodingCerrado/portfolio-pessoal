@@ -27,6 +27,10 @@ nav a:hover {
   color: rgb(150, 107, 54);
 }
 
+.nav-title:hover {
+  color: black;
+}
+
 nav img.logo {
   width: 2.5rem;
 }
