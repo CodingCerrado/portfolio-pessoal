@@ -23,14 +23,6 @@ nav a {
   color: black;
 }
 
-nav a:hover {
-  color: rgb(150, 107, 54);
-}
-
-.nav-title:hover {
-  color: black;
-}
-
 nav img.logo {
   width: 2.5rem;
 }
@@ -46,7 +38,11 @@ nav .right-content {
   font-size: 1.1rem;
 }
 
-.border-left {
+nav .right-content a:hover {
+  color: rgb(150, 107, 54);
+}
+
+.link-with-border {
   border-left: 1px solid;
   padding-left: 1rem;
 }
