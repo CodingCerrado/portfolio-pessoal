@@ -1,0 +1,24 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.4rem;
+    font-size: 1.2rem;
+    font-family: "Work Sans";
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav img.logo {
+    width: 2.5rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+  }
