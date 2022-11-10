@@ -8,7 +8,6 @@
   font-style: normal;
 }
 
-
 .container {
   width: 90%;
   margin: 0 auto;
@@ -35,12 +34,22 @@ footer ul {
 }
 
 .li-footer-lighter {
-  font-weight: 200;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 0.5px;
 }
+
+.li-footer-lighter-email {
+  font-weight: 200;
+  font-size: 18px;
+  cursor: pointer;
+  letter-spacing: normal;
+}
+
 
 .click-site-footer {
   font-weight: bolder;
-  font-size: larger;
+  font-size: x-large;
 }
 
 footer li {
@@ -58,9 +67,6 @@ footer a {
   line-height: 25px;
 }
 
-.politicas-superior {
-  margin-bottom: 20px;
-}
 
 .footer-link-criado {
   text-decoration: underline;
