@@ -60,7 +60,7 @@ nav .right-content a:hover {
   justify-content: space-around;
   align-items: center;
   border-top: 2px solid rgb(201, 194, 194);
-  font-size: 20px;
+  
   font-family: "Work Sans", sans-serif;
   gap: 3rem;
   height: 10rem;
@@ -70,26 +70,26 @@ nav .right-content a:hover {
 footer ul {
   list-style: none;
   align-items: center;
-  font-size: 21px;
+  font-size: 18px;
   color: black;
   font-weight: 600;
 }
 
 .li-footer-lighter {
   font-weight: normal;
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 0.5px;
 }
 
 .li-footer-lighter-email {
   font-weight: 200;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: normal;
 }
 
 .click-site-footer {
   font-weight: bolder;
-  font-size: x-large;
+  font-size: 20px;
 }
 
 footer li {
@@ -103,7 +103,7 @@ footer a {
 }
 
 .politicas {
-  font-size: 15px;
+  font-size: 13px;
   line-height: 25px;
 }
 
