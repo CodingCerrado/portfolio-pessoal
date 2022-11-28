@@ -147,8 +147,8 @@ nav .right-content a:hover {
 }
 
 #container-buttons a:hover{
-    background-color: #F3F3F3;
-    transition: all 1s linear;
+    background-color: transparent;
+    transition: 1s;
 }
 
 .div-footer {
