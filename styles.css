@@ -149,6 +149,7 @@ nav .right-content a:hover {
 #container-buttons a:hover{
     background-color: transparent;
     transition: 1s;
+    transition: all 0,4s linear;
 }
 
 .div-footer {
