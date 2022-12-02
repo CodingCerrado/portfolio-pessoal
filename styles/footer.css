@@ -1,0 +1,52 @@
+.div-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 2px solid rgb(201, 194, 194);
+
+  font-family: "Work Sans", sans-serif;
+  gap: 3rem;
+  height: 10rem;
+  line-height: 2.18rem;
+}
+
+footer .footer-content {
+  list-style: none;
+  align-items: center;
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+}
+
+.li-footer-lighter {
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.li-footer-lighter-email {
+  font-weight: 200;
+  font-size: 16px;
+  letter-spacing: normal;
+}
+
+.click-site-footer {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.politicas {
+  font-size: 13px !important;
+  line-height: 25px !important;
+  font-weight: normal !important;
+}
+
+.footer-link-criado {
+  text-decoration: underline;
+}
