@@ -101,18 +101,20 @@ nav .right-content a:hover {
 
 #container-buttons{
     display: flex;
+    font-size: 21px;
+    font-weight: bolder;
 }
 
 .resume-button{
-    background-color: #eea302;
-    height: 140px;
-    width: 140px;
-    border-radius: 50%;
-    border: solid 1px #0000006e;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center
+  background-color: #eea302;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  border: solid 1px #0000006e;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center
 }
 
 .projects-button{
@@ -139,19 +141,15 @@ nav .right-content a:hover {
     justify-content: center
 }
 
-.text-button{
-    font-size: 21px;
-    font-weight: bolder;
-}
-
 #container-buttons a{
     text-decoration: none;
     color: #000000;  
 }
 
-a :hover{
-    background-color: #F3F3F3;
-    transition: all 1s linear;
+#container-buttons a:hover{
+    background-color: transparent;
+    transition: 1s;
+    transition: all 0,4s linear;
 }
 
 .div-footer {
