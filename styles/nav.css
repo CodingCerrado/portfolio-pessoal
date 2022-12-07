@@ -1,4 +1,4 @@
-nav {
+.nav-top-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -6,16 +6,16 @@ nav {
   font-size: 1.2rem;
 }
 
-nav a {
+.nav-top-menu a {
   text-decoration: none;
   color: black;
 }
 
-nav img.logo {
+.nav-logo {
   width: 2.5rem;
 }
 
-nav .nav-content {
+.nav-content {
   display: flex;
   list-style: none;
   align-items: center;
@@ -28,6 +28,7 @@ nav .right-content {
 
 nav .right-content a:hover {
   color: rgb(150, 107, 54);
+  transition: all 0.7s linear;
 }
 
 .link-with-border {

@@ -2,10 +2,6 @@
   display: flex;
 }
 
-.container-wolf {
-  display: flex;
-}
-
 .image-wolf {
   border-radius: 50%;
   width: 480px;
@@ -16,18 +12,11 @@
   margin-bottom: 150px;
 }
 
-.wolf {
-  flex: 1;
-}
 
 .container-descrition {
   display: flex;
   margin-top: 120px;
   margin-bottom: 50px;
-}
-
-.area-text {
-  flex: 1;
 }
 
 .welcome-title {
@@ -48,40 +37,28 @@
   font-weight: bolder;
 }
 
-.resume-button {
-  background-color: #eea302;
+.welcome-buttons {
   height: 140px;
   width: 140px;
   border-radius: 50%;
   border: solid 1px #0000006e;
   display: flex;
-  text-align: center;
   align-items: center;
   justify-content: center;
+}
+
+.resume-button {
+  background-color: #eea302;
 }
 
 .projects-button {
   background-color: #ff3619;
-  height: 140px;
-  width: 140px;
-  border-radius: 50%;
-  border: solid 1px #0000006e;
   margin-left: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .contact-button {
   background-color: #80d8da;
-  height: 140px;
-  width: 140px;
-  border-radius: 50%;
-  border: solid 1px #0000006e;
   margin-left: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .container-buttons a {
@@ -91,6 +68,5 @@
 
 .container-buttons a:hover {
   background-color: transparent;
-  transition: 1s;
-  transition: all 0, 4s linear;
+  transition: all 0.4s linear;
 }
