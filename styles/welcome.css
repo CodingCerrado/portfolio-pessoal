@@ -5,22 +5,28 @@
   max-width: 1400px;
   margin: auto;
   justify-content: center;
+  
 }
 
-.image-wolf {
+.container-wolf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.image-wolf{
   border-radius: 50%;
-  width: 100%;
-  margin-top: 25%;
 }
-
 
 .container-descrition {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 3%;
   width: 25%;
-  margin-top: 5%;
-  margin-bottom: 15%;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  
 }
 
 .welcome-title {
@@ -38,9 +44,8 @@
   font-size: 21px;
   font-weight: bolder;
   width: 100%;
-  margin-top: 7%;
-  margin-left: -5%;
-  height: 140px;
+  min-height: 140px;
+  max-height: 100px;
   
 }
 
@@ -59,12 +64,12 @@
 
 .projects-button {
   background-color: #ff3619;
-  margin-left: 6%;
+  margin-left: 20px;
 }
 
 .contact-button {
   background-color: #80d8da;
-  margin-left: 6%;
+  margin-left: 20px;
 }
 
 .container-buttons a {
