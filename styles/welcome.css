@@ -17,21 +17,26 @@
 
 .image-wolf{
   border-radius: 50%;
+  width: 100%;
 }
 
 .container-descrition {
   display: flex;
-  flex-wrap: wrap;
-  width: 25%;
+  flex: 1;
+  min-width: 300px;
+  max-width: 1400px;
   justify-content: center;
-  align-items: center;
-  justify-items: center;
+  width: 0 auto;
   
+}
+
+.area-text{
+  min
 }
 
 .welcome-title {
   font-size: 100px;
-  margin-bottom: 4%;
+  margin-bottom: 20px;
 }
 
 .welcome-description {
@@ -43,9 +48,7 @@
   display: flex;
   font-size: 21px;
   font-weight: bolder;
-  width: 100%;
-  min-height: 140px;
-  max-height: 100px;
+  justify-content: ;
   
 }
 
@@ -55,7 +58,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8%;
+  padding: 4%;
 }
 
 .resume-button {
