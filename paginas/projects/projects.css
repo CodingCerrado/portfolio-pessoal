@@ -1,36 +1,41 @@
 .container-projects {
-font-size: 20px;
-margin-left: 180px;
-margin-top: 20px;
+
+font-family:"Work Sans", sans-serif;
+margin-left: 200px;
+margin: 0px;
+border-left: 100px;
 
 }
 
 .projects-title {
-    justify-content: left;
-    font-size: 35px;
-    width: 480px;
-    margin-left: 190px;
-    margin-top: 20px;
+    justify-content: left ;
+    font-size: 25px;
+    height: auto;
+    margin: 220px;
+  
+    
 }
 
 .project-one, .project-two, .project-three {
-    width: 480px;
-    margin-left: 190px;
-    margin-top: 20px;
+    justify-content: left ;
+    font-size: 18px;
+    margin-left: 220px;
   
 }
 
 .first-parag, .second-parag, .third-parag {
     width: 480px;
-    margin-left: 190px;
-    margin-top: 20px;
-       
+    margin-left: 220px;
+    font-size: 20px;
+    letter-spacing: normal;
+        
 }
 
 .image-project1, .image-project2, .image-project3 {
+    display: flex;
     width: 600px;
     margin-left: 1000px;
-    margin-top: 100px;
+   
    
 }
 
