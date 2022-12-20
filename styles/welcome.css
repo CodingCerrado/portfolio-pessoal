@@ -1,18 +1,15 @@
 .welcome-container {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
   min-width: 300px;
   max-width: 1400px;
-  margin: auto;
-  justify-content: center;
-  
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .container-wolf{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-items: center;
+  margin-right: 20px;
 }
 
 .image-wolf{
@@ -21,17 +18,7 @@
 }
 
 .container-descrition {
-  display: flex;
   flex: 1;
-  min-width: 300px;
-  max-width: 1400px;
-  justify-content: center;
-  width: 0 auto;
-  
-}
-
-.area-text{
-  min
 }
 
 .welcome-title {
@@ -41,28 +28,27 @@
 
 .welcome-description {
   text-align: justify;
-  margin: auto;
+  width: 60%;
 }
 
 .container-buttons {
   display: flex;
   font-size: 21px;
   font-weight: bolder;
-  justify-content: ;
-  
+  min-height: 130px;
 }
 
 .welcome-buttons {
-  border-radius: 50%;
-  border: solid 1px #0000006e;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4%;
+  border-radius: 50%;
+  border: solid 1px #0000006e;
+  padding: 3%;
 }
 
 .resume-button {
-  background-color: #eea302;
+  background-color: #eea302; 
 }
 
 .projects-button {
