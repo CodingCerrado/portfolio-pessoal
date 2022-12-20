@@ -1,41 +1,37 @@
 .container-projects {
-
 font-family:"Work Sans", sans-serif;
-margin-left: 200px;
-margin: 0px;
-border-left: 100px;
-
+margin-left: 300px; 
+width: 100%;
+height: 100%;
+position: relative;
 }
 
 .projects-title {
+    display: flex;
+    text-align: justify;
     justify-content: left ;
-    font-size: 25px;
-    height: auto;
-    margin: 220px;
-  
-    
+    font-size: 30px;
+    height: 200px;    
 }
 
 .project-one, .project-two, .project-three {
-    justify-content: left ;
-    font-size: 18px;
-    margin-left: 220px;
-  
+    display: flex;
+    text-align: justify;
+    justify-content: left ; 
+    font-size: 20px;
+    height: 80px;
 }
 
 .first-parag, .second-parag, .third-parag {
-    width: 480px;
-    margin-left: 220px;
-    font-size: 20px;
-    letter-spacing: normal;
-        
+    display: inline-block;
+    font-size: 25px;
+    width: 40%;
+    height: 350px; 
 }
 
 .image-project1, .image-project2, .image-project3 {
     display: flex;
-    width: 600px;
-    margin-left: 1000px;
-   
-   
+    width: 55%;
+    float: right;  
 }
 
