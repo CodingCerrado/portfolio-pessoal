@@ -3,10 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="paginas/contact/contact.css" />
-    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+    <title>Contato</title>
   </head>
-  <body>
-    <h1>Contact</h1>
+  <body class="contact-body">
+    <div class="contact-container">
+      <form class="contact-form" action="">
+        <div class="contact-left-content">
+          <h1>Contato</h1>
+          <p>Vamos conversar sobre suas ideias!</p>
+          <p><strong>Telefone</strong></p>
+          <p>(11)3456-7890</p>
+          <p><strong>Email</strong></p>
+          <p>info@meusite.com</p>
+        </div>
+        <div class="contact-right-content">
+          <div class="contact-right-content-first-line">
+            <p>Nome</p>
+            <input type="text" name="" id="" />
+            <p>Sobrenome</p>
+            <input type="text" name="" id="" />
+          </div>
+          <div class="contact-right-content-second-line">
+            <p>Email *</p>
+            <input type="email" name="" id="" />
+            <p>Assunto</p>
+            <input type="text" name="" id="" />
+          </div>
+          <div class="contact-right-content-third-line">
+            <p>Mensagem</p>
+            <textarea class="contact-message" cols="30" rows="10" textarea style="resize: none;"></textarea>
+            <input type="submit" value="Enviar" />
+            <input type="button" value="Enviar" />
+          </div>
+        </div>
+      </form>
+    </div>
   </body>
 </html>

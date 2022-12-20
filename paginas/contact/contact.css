@@ -1,3 +1,24 @@
-h1 {
-    color: green;
+.contact-body {
+  display: block;
+  background-color: #f3f3f3;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Work Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.contact-container {
+  margin: 0 auto;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 180px;
+  margin-top: 60px;
+}
+
+.contact-right-content {
+    display: flex;
 }
