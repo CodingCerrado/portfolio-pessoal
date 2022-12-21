@@ -26,6 +26,10 @@
   /* background-color: white; */
 }
 
+.contact-left--content-email:hover {
+  cursor: pointer;
+}
+
 .contact-right-content {
   /* background-color: white; */
   display: flex;
@@ -48,6 +52,8 @@
   align-items: flex-end;
   gap: 15px;
 }
+
+
 
 .contact-input-name {
   border: 1px solid rgb(0, 0, 0);
@@ -101,7 +107,7 @@
   border: 1px solid rgb(0, 0, 0);
   background-color: #f3f3f3;
   box-sizing: border-box;
-  resize: vertical;
+  resize: none;
 }
 
 .contact-input-message:hover {
@@ -111,6 +117,8 @@
 
 .contact-send-button {
   background-color: #eea302;
+  font-size: 21px;
+  font-weight: bolder;
   height: 140px;
   width: 140px;
   border-radius: 50%;
@@ -118,4 +126,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.contact-send-button:hover {
+  background-color: transparent;
+  transition: all 0.4s linear;
 }

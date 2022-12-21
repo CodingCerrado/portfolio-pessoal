@@ -1,13 +1,13 @@
 "use strict";
 
 const form = document.querySelector(".contact-right-content");
-const nome = document.querySelector(".name");
-const sobrenome = document.querySelector(".surname");
-const email = document.querySelector(".email");
-const assunto = document.querySelector(".subject");
-const mensagem = document.querySelector(".message");
-const button = document.querySelector(".button");
-const enviar = document.querySelector(".send");
+const nome = document.querySelector(".contact-input-name");
+const sobrenome = document.querySelector(".contact-input-surname");
+const email = document.querySelector(".contact-input-email");
+const assunto = document.querySelector(".contact-input-subject");
+const mensagem = document.querySelector(".contact-input-message");
+const button = document.querySelector(".contact-input-button");
+const enviar = document.querySelector(".contact-input-send");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault(); //
