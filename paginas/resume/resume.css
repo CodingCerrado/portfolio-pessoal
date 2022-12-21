@@ -51,12 +51,44 @@ body {
     padding-left: 1rem;
   }
 
+  .resume-container{
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    
+  }
+
+  .resume-work-experience{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .resume-leftbox1{
+    flex: 1;
+  }
+
+  .resume-rightbox1{
+    flex: 1;
+    
+  }
+
+  .botton-line1{
+    border-bottom: 1px solid rgb(146, 2, 2);
+    width: 95%;
+    margin-bottom: 10px;
+    margin: auto;
+
+  }
+
 
   .div-footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-top: 2px solid rgb(201, 194, 194);
+    border-top: 1px solid rgb(201, 194, 194);
+    width: 95%;
+    margin: 0 auto;
   
     font-family: "Work Sans", sans-serif;
     gap: 3rem;
