@@ -7,19 +7,13 @@ position: relative;
 }
 
 .projects-title {
-    display: flex;
-    text-align: justify;
-    justify-content: left ;
     font-size: 30px;
-    height: 200px;    
-}
+    height: 200px;
+ }
 
 .project-one, .project-two, .project-three {
-    display: flex;
-    text-align: justify;
-    justify-content: left ; 
     font-size: 20px;
-    height: 80px;
+    height: 55px;
 }
 
 .first-parag, .second-parag, .third-parag {
@@ -30,7 +24,6 @@ position: relative;
 }
 
 .image-project1, .image-project2, .image-project3 {
-    display: flex;
     width: 55%;
     float: right;  
 }
