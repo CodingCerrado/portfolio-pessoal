@@ -1,3 +1,36 @@
-h1 {
-    color: blue;
+.container-projects {
+  font-family: "Work Sans", sans-serif;
+  width: 70%;
+  margin: 200px auto 0px auto;
+}
+
+.projects-title {
+  font-size: 30px;
+  margin-bottom: 150px;
+}
+.project-content1,
+.project-content2,
+.project-content3 {
+  display: flex;
+  gap: 80px;
+}
+
+.project-one,
+.project-two,
+.project-three {
+  font-size: 20px;
+  margin-bottom: 200px;
+}
+
+.first-parag,
+.second-parag,
+.third-parag {
+  margin-left: auto;
+  font-size: 25px;
+}
+
+.image-project1,
+.image-project2,
+.image-project3 {
+  margin-right: 0px;
 }
