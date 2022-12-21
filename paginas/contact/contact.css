@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 .contact-body {
   display: block;
   background-color: #f3f3f3;
@@ -8,17 +10,112 @@
 }
 
 .contact-container {
-  margin: 0 auto;
-}
-
-.contact-form {
+  width: 100%;
+  margin: 100px auto 0px auto;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 180px;
-  margin-top: 60px;
+}
+/* 
+.contact-form {
+  display: flex;
+} */
+
+.contact-left-content {
+  /* background-color: white; */
 }
 
 .contact-right-content {
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+}
+
+
+.contact-right-content-first-line {
     display: flex;
+    gap: 15px;
+}
+
+.contact-right-content-second-line {
+  display: flex;
+  gap: 15px;
+}
+
+.contact-right-content-third-line {
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
+}
+
+.contact-input-name {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: #f3f3f3;
+  box-sizing: border-box;
+  width: 200px;
+  height: 40px;
+}
+
+.contact-input-name:hover {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.contact-input-surname {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: #f3f3f3;
+  box-sizing: border-box;
+  width: 200px;
+  height: 40px;
+}
+
+.contact-input-surname:hover {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.contact-input-email {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: #f3f3f3;
+  box-sizing: border-box;
+  width: 200px;
+  height: 40px;
+}
+
+.contact-input-email:hover {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.contact-input-subject {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: #f3f3f3;
+  box-sizing: border-box;
+  width: 200px;
+  height: 40px;
+}
+
+.contact-input-subject:hover {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.contact-input-message {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: #f3f3f3;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.contact-input-message:hover {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+
+.contact-send-button {
+  background-color: #eea302;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  border: solid 1px #0000006e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
