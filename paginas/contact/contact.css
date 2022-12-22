@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-.contact-body {
+.ct-body {
   display: block;
   background-color: #f3f3f3;
   padding: 0px;
@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-.contact-container {
+.ct-container {
   width: 100%;
   margin: 100px auto 0px auto;
   display: flex;
@@ -18,36 +18,36 @@
   gap: 180px;
 }
 /* 
-.contact-form {
+.ct-form {
   display: flex;
 } */
 
-.contact-left-content {
+.ct-left-content {
   /* background-color: white; */
 }
 
-.contact-left--content-email:hover {
+.ct-left--content-email:hover {
   cursor: pointer;
 }
 
-.contact-right-content {
+.ct-right-content {
   /* background-color: white; */
   display: flex;
   flex-direction: column;
 }
 
 
-.contact-right-content-first-line {
+.ct-right-content-first-line {
     display: flex;
     gap: 15px;
 }
 
-.contact-right-content-second-line {
+.ct-right-content-second-line {
   display: flex;
   gap: 15px;
 }
 
-.contact-right-content-third-line {
+.ct-right-content-third-line {
   display: flex;
   align-items: flex-end;
   gap: 15px;
@@ -55,7 +55,7 @@
 
 
 
-.contact-input-name {
+.ct-input-name {
   border: 1px solid rgb(0, 0, 0);
   background-color: #f3f3f3;
   box-sizing: border-box;
@@ -63,11 +63,11 @@
   height: 40px;
 }
 
-.contact-input-name:hover {
+.ct-input-name:hover {
   border: 2px solid rgb(0, 0, 0);
 }
 
-.contact-input-surname {
+.ct-input-surname {
   border: 1px solid rgb(0, 0, 0);
   background-color: #f3f3f3;
   box-sizing: border-box;
@@ -75,11 +75,11 @@
   height: 40px;
 }
 
-.contact-input-surname:hover {
+.ct-input-surname:hover {
   border: 2px solid rgb(0, 0, 0);
 }
 
-.contact-input-email {
+.ct-input-email {
   border: 1px solid rgb(0, 0, 0);
   background-color: #f3f3f3;
   box-sizing: border-box;
@@ -87,11 +87,11 @@
   height: 40px;
 }
 
-.contact-input-email:hover {
+.ct-input-email:hover {
   border: 2px solid rgb(0, 0, 0);
 }
 
-.contact-input-subject {
+.ct-input-subject {
   border: 1px solid rgb(0, 0, 0);
   background-color: #f3f3f3;
   box-sizing: border-box;
@@ -99,23 +99,23 @@
   height: 40px;
 }
 
-.contact-input-subject:hover {
+.ct-input-subject:hover {
   border: 2px solid rgb(0, 0, 0);
 }
 
-.contact-input-message {
+.ct-input-message {
   border: 1px solid rgb(0, 0, 0);
   background-color: #f3f3f3;
   box-sizing: border-box;
   resize: none;
 }
 
-.contact-input-message:hover {
+.ct-input-message:hover {
   border: 2px solid rgb(0, 0, 0);
 }
 
 
-.contact-send-button {
+.ct-submit-button {
   background-color: #eea302;
   font-size: 21px;
   font-weight: bolder;
@@ -128,7 +128,7 @@
   justify-content: center;
 }
 
-.contact-send-button:hover {
+.ct-submit-button:hover {
   background-color: transparent;
   transition: all 0.4s linear;
 }

@@ -1,17 +1,19 @@
 "use strict";
 
-const form = document.querySelector(".contact-right-content");
-const nome = document.querySelector(".contact-input-name");
-const sobrenome = document.querySelector(".contact-input-surname");
-const email = document.querySelector(".contact-input-email");
-const assunto = document.querySelector(".contact-input-subject");
-const mensagem = document.querySelector(".contact-input-message");
-const button = document.querySelector(".contact-input-button");
-const enviar = document.querySelector(".contact-input-send");
+const form = document.querySelector(".ct-right-content");
+const nome = document.querySelector(".ct-input-name");
+const sobrenome = document.querySelector(".ct-input-surname");
+const email = document.querySelector(".ct-input-email");
+const assunto = document.querySelector(".ct-input-subject");
+const mensagem = document.querySelector(".ct-input-message");
+const button = document.querySelector(".ct-submit-button");
 
 form.addEventListener("submit", (e) => {
-  e.preventDefault(); //
-  checkInputs();
+  alert('Alerta!!!')
+  console.log("jefferson");
+  
+  // e.preventDefault();
+  // checkInputs();
 });
 
 function checkInputs() {
@@ -21,7 +23,7 @@ function checkInputs() {
   const subjectValue = assunto.value;
   const messageValue = mensagem.value;
 
-  //   if (emailValue === "") {
-  //     setErrorFor(nomeValue, texto)
-  //   }
+    // if (emailValue === "") {
+    //   console.log("Preencha os dados!");
+    // }
 }
