@@ -9,11 +9,13 @@ const mensagem = document.querySelector(".ct-input-message");
 const button = document.querySelector(".ct-submit-button");
 
 form.addEventListener("submit", (e) => {
-  alert('Alerta!!!')
-  console.log("jefferson");
-  
-  // e.preventDefault();
-  // checkInputs();
+  alert("funcionou!");
+  e.preventDefault();
+  const dataForm = new FormData(form);
+
+  for (item of form) {
+    console.log(item[0], item[1]);
+  }
 });
 
 function checkInputs() {
@@ -23,7 +25,7 @@ function checkInputs() {
   const subjectValue = assunto.value;
   const messageValue = mensagem.value;
 
-    // if (emailValue === "") {
-    //   console.log("Preencha os dados!");
-    // }
+  // if (emailValue === "") {
+  //   console.log("Preencha os dados!");
+  // }
 }

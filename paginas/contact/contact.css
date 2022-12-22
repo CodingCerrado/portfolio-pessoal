@@ -22,9 +22,9 @@
   display: flex;
 } */
 
-.ct-left-content {
-  /* background-color: white; */
-}
+/* .ct-left-content {
+  background-color: white;
+} */
 
 .ct-left--content-email:hover {
   cursor: pointer;
