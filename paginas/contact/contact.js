@@ -13,8 +13,8 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
   const dataForm = new FormData(form);
 
-  for (item of form) {
-    console.log(item[0], item[1]);
+  for (const item of form) {
+    console.log(item.value);
   }
 });
 
