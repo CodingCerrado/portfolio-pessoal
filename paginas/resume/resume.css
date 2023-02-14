@@ -1,3 +1,39 @@
-h1 {
-    color: red;
+.resume-cointainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1000px;
+  margin-bottom: 60px;
+}
+
+.resume-title {
+  margin-bottom: 60px;
+}
+
+.resume-section-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-section-info-container {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+  max-width: 490px;
+}
+
+.resume-section-info{
+  min-width: 340px;
+}
+
+.resume-section-info-date {
+  min-width: 120px
+}
+.resume-divider {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.resume-section-info-list{
+  max-width: 340px;
 }
