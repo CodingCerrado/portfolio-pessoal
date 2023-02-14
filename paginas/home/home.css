@@ -1,5 +1,7 @@
 .welcome-container {
   display: flex;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .image-wolf {
