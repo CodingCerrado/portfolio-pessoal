@@ -4,9 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="paginas/contact/contact.css" />
-    <title>Contact</title>
+    <title>Contato</title>
   </head>
-  <body>
-    <h1>Contact</h1>
+  <body class="ct-body">
+    <div class="ct-container">
+        <div class="ct-left-content">
+          <div class="ct-left-content-first-line">
+            <h1>Contato</h1>
+            <p>Vamos conversar sobre suas ideias!</p>
+          </div>
+          <div class="ct-left-content-second-line">
+            <p><strong>Telefone</strong></p>
+            <p>(11)3456-7890</p>
+          </div>
+          <div class="ct-left-content-third-line">
+            <p><strong>Email</strong></p>
+            <div class="ct-left--content-email">
+              <p>info@meusite.com</p>
+            </div>
+          </div>
+        </div>
+        <form class="ct-right-content">
+          <div class="ct-right-content-first-line">
+            <label class="ct-name" for="ct-input-name">
+            <p>Nome</p>
+            <input type="text" name="ct-input-name" class="ct-input-name" />
+            </label>
+            <label class="ct-surname" for="ct-input-surname">
+            <p>Sobrenome</p>
+            <input type="text" name="ct-input-surname" class="ct-input-surname" />
+            </label>
+          </div>
+          <div class="ct-right-content-second-line">
+            <label class="ct-email" for="ct-input-email">
+            <p>Email *</p>
+            <input type="email" name="ct-input-email" class="ct-input-email" />
+            </label>
+            <label class="ct-subject" for="ct-input-subject">
+            <p>Assunto</p>
+            <input type="text" name="ct-input-subject" class="ct-input-subject" />
+            </label>
+          </div>
+          <div class="ct-right-content-third-line">
+            <label class="ct-message" for="ct-input-message">
+            <p>Mensagem</p>
+            <textarea class="ct-input-message" name="ct-input-message"
+              cols="30"
+              rows="8"
+              textarea
+            ></textarea>
+            </label>
+            <div class="ct-container-send-button">
+            <input class="ct-submit-button" type="submit" value="Enviar" />
+            </div>
+          </div>
+        </form>
+    </div>
   </body>
 </html>
